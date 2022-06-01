@@ -25,7 +25,7 @@ function modelLoaded(){
 function draw(){
     image(img,0,0,300,300);
     fill("black");
-    rect(noseX-150, noseY-110, 20);
+    rect(noseX-150, noseY-110, 20,10);
 }
 function take_snapshot(){
     save('realfilter.png')
